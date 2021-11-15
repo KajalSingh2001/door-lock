@@ -31,7 +31,7 @@ export default function Form() {
             break;
         }
         // console.log(document.getElementById('sms').checked)
-        if(document.getElementById('sms').checked==true)
+        if(document.getElementById('sms').checked===true)
         costC+=1826.6
 
         setCost(costC)
