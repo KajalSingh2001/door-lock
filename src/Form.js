@@ -42,7 +42,7 @@ export default function Form() {
                 setSubmitted(true)
                 setcost()
             }}>
-                <h1 style={{textAlign: 'center', margin: '30px'}}>Door Lock Quiz</h1>
+                <h1 style={{textAlign: 'center', margin: '30px'}}>Door Lock</h1>
                 <div class="mb-3">
                     <label for="name" class="form-label">Name</label>
                     <input type="text" class="form-control" required id="name" aria-describedby="name"/>
