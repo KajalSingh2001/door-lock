@@ -26,6 +26,9 @@ export default function Form() {
             case 'Keypad based lock system':
                 costC = 1216
             break;
+            default:
+                costC=0
+            break;
         }
         // console.log(document.getElementById('sms').checked)
         if(document.getElementById('sms').checked==true)
